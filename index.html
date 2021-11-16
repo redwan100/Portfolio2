@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+
+    <!-- ================= BOXICON ================= -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    
+
+    <!-- ================= custom css ================= -->
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+</head>
+<body>
+    <!-- ================= HEADER ================= -->
+
+    <div class="progress__bar">
+        <div class="inner">
+            <!-- <i class='bx bx-chevron-up progress__icon'></i> -->
+            <span class="progress__icon">&#10174;</span>
+        </div>
+    </div>
+
+    <!-- ========== CUSTOM CURSOR =========== -->
+    <div class="cursor"></div>
+
+    <!-- ========== ASIDE ========== -->
+    <div class="social">
+        <i class='bx bxl-facebook' ></i>
+        <i class='bx bxl-instagram' ></i>
+        <i class='bx bxl-whatsapp' ></i>
+    </div>
+
+    <header class="header">
+        <nav class="nav__bar grid">
+            <a href="#" class="nav__logo">Redwan</a>
+
+            <div class="nav__menu" id="nav__menu">
+                <ul class="nav__items">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">about</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">Service</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">Portfolio</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#newsletter" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav__bar-toggle" id="toggler">
+                <span class="toggle__line"></span>
+                <span class="toggle__line"></span>
+                <span class="toggle__line"></span>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- ============ MAIN ============= -->
+    <main class="main">
+
+        <section class="hero" id="home">
+           <div class="hero__container container grid">
+                <div class="hero__content">
+                    <h3 class="hero__title">hello, i'm</h3>
+
+                    <h1 class="hero__name">Redwan</h1>
+
+                    <span class="hero__sub">And I'm a </span><span class="hero__subtitle typing"></span>
+
+
+                    <div class="hero__btn">
+                        <a href="#" class="hero__contact btn">Hire me
+                            <i class='bx bxs-chevron-right contact__icon'></i>
+                        </a>
+                        <a href="#" class="hero__video btn">
+                            <i class='bx bx-play hero__btn-icon'></i>
+                        </a>
+                    </div>
+                </div>
+           </div>
+           <div class="modal">
+            <div class="layer">
+                <i class='bx bx-x modal__close'></i>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- ============scroll======= -->
+    <div class="scroll"></div>
+
+
+    <!-- ============= ABOUT ========== -->
+
+    <section class="about section" id="about">
+        <h1 class="section__title">ABOUT ME</h1>
+       
+        <div class="about__container grid">
+            <div class="about__left">
+                <a href="#" class="hero__video about__video">
+                    <i class='bx bx-play hero__btn-icon'></i>
+                </a>
+            </div>
+
+            <div class="about__right">
+               <div class="about__right__content">
+                    <h1 class="about__right__title">
+                        failure is the condiment that gives <span class="green">success</span>
+                    </h1>
+
+                    <p class="about__right__description">
+                        Spent more time focusing on the important aspects of your business. Turn to McCartney HR LLC in Brooklyn, NY for HR solutions. As an advanced virtual HR company, we are offering online HR systems that can be customized depending on your business needs.
+                    </p>
+
+                    <a href="#" class="hero__contact dowload__cv">DOWNLOAD CV
+                        <i class='bx bxs-chevron-right contact__icon'></i>
+                    </a>
+               </div>
+            </div>
+        </div>
+        
+    </section>
+
+
+    <!-- ================== skills ============== -->
+    <section class="skills section" id="skills">
+        <h1 class="section__title">experience</h1>
+       
+
+        <div class="skills__container grid">
+            <div class="skills__progress__bar">
+                <h1 class="skills__title">HTML</h1>
+                <div class="skills__inner" data-width="80">
+                    <span class="skills__percentage">80%</span>
+                </div>
+            </div>
+
+            <div class="skills__progress__bar">
+                <h1 class="skills__title">React</h1>
+
+                <div class="skills__inner" data-width="70">
+                    <span class="skills__percentage">70%</span>
+                </div>
+            </div>
+
+            <div class="skills__progress__bar">
+                <h1 class="skills__title">Javascript</h1>
+
+                <div class="skills__inner" data-width="90">
+                    <span class="skills__percentage">90%</span>
+                </div>
+            </div>
+
+            <div class="skills__progress__bar">
+                <h1 class="skills__title">Angular</h1>
+                <div class="skills__inner" data-width="80">
+                    <span class="skills__percentage">80%</span>
+                </div>
+            </div>
+
+            <div class="skills__progress__bar">
+                <h1 class="skills__title">jQuery</h1>
+                <div class="skills__inner" data-width="78">
+                    <span class="skills__percentage">78%</span>
+                </div>
+            </div>
+
+
+            <div class="skills__progress__bar">
+                <h1 class="skills__title">MongoDB</h1>
+                <div class="skills__inner" data-width="67">
+                    <span class="skills__percentage">67%</span>
+                </div>
+            </div>
+
+
+            <div class="skills__progress__bar">
+                <h1 class="skills__title">Tailwind</h1>
+                <div class="skills__inner" data-width="45">
+                    <span class="skills__percentage">45%</span>
+                </div>
+            </div>
+
+
+            <div class="skills__progress__bar">
+                <h1 class="skills__title">Firebase</h1>
+                <div class="skills__inner" data-width="76">
+                    <span class="skills__percentage">76%</span>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+
+
+    <!-- ================= SERVICES SECTION ============ -->
+    <section class="services section" id="services">
+        <h1 class="section__title">services</h1>
+
+        <div class="services__container grid">
+            <div class="services__box">
+                <img src="./images/service1.svg" alt="" class="services__img">
+
+                <div class="services__content">
+                    <h2 class="services__title green">DESIGN PRINCIPALS</h2>
+
+                    <p class="services__description">need a project completed by an expert? let's go! access a human resources consultant answer questions</p>
+                </div>
+            </div>
+
+            <div class="services__box active">
+                <img src="./images/service2.svg" alt="" class="services__img">
+
+                <div class="services__content">
+                    <h2 class="services__title green">UNIQUE VALUES</h2>
+
+                    <p class="services__description">need a project completed by an expert? let's go! access a human resources consultant answer questions</p>
+                </div>
+            </div>
+
+            <div class="services__box">
+                <img src="./images/service3.svg" alt="" class="services__img">
+
+                <div class="services__content">
+                    <h2 class="services__title green">style components</h2>
+
+                    <p class="services__description">need a project completed by an expert? let's go! access a human resources consultant answer questions</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ================== PORTFOLIO ================ -->
+    <section class="portfolio section" id="portfolio">
+        <h1 class="section__title">latest work</h1>
+
+        <div class="buttons">
+            <ul class="btn__list">
+                <li class="btn__item active" data-name="all">all</li>
+                <li class="btn__item" data-name="brand">brand</li>
+                <li class="btn__item" data-name="design">design</li>
+                <li class="btn__item" data-name="graphic">graphic</li>
+            </ul>
+
+            <div class="portfolio__container grid">
+                <div class="img__box" data-filter="brand">
+                    <img src="./images/portfolio.png" alt="" class="portfolio__img">
+                    <div class="zoom">
+                        <i class='bx bx-zoom-in zoom__icon'></i>
+                    </div>
+                </div>
+               
+                <div class="img__box" data-filter="graphic">
+                    <img src="./images/portfolio11.jpg" alt="" class="portfolio__img" data-item="design">
+                    <div class="zoom">
+                        <i class='bx bx-zoom-in zoom__icon'></i>
+                    </div>
+                </div>
+                <div class="img__box" data-filter="brand">
+                    <img src="./images/portfolio7.jpg" alt="" class="portfolio__img" data-item="design">
+                    <div class="zoom">
+                        <i class='bx bx-zoom-in zoom__icon'></i>
+                    </div>
+                </div>
+                <div class="img__box" data-filter="design">
+                    <img src="./images/portfolio5.jpg" alt="" class="portfolio__img" data-item="design">
+                    <div class="zoom">
+                        <i class='bx bx-zoom-in zoom__icon'></i>
+                    </div>
+                </div>
+                <div class="img__box" data-filter="graphic">
+                    <img src="./images/portfolio6.jpg" alt="" class="portfolio__img" data-item="design">
+                    <div class="zoom">
+                        <i class='bx bx-zoom-in zoom__icon'></i>
+                    </div>
+                </div>
+                <div class="img__box" data-filter="design">
+                    <img src="./images/portfolio8.jpg" alt="" class="portfolio__img" data-item="design">
+                    <div class="zoom">
+                        <i class='bx bx-zoom-in zoom__icon'></i>
+                    </div>
+                </div>
+                <div class="img__box" data-filter="design">
+                    <img src="./images/portfolio9.jpg" alt="" class="portfolio__img" data-item="design">
+                    <div class="zoom">
+                        <i class='bx bx-zoom-in zoom__icon'></i>
+                    </div>
+                </div>
+
+                <div class="img__box" data-filter="design">
+                    <img src="./images/portfolio10.jpg" alt="" class="portfolio__img" data-item="design">
+                    <div class="zoom">
+                        <i class='bx bx-zoom-in zoom__icon'></i>
+                    </div>
+                </div>
+                <div class="img__box" data-filter="design">
+                    <img src="./images/portfolio11.jpg" alt="" class="portfolio__img" data-item="design">
+                    <div class="zoom">
+                        <i class='bx bx-zoom-in zoom__icon'></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio__modal modal__hide">
+            <div class="modal__layer">
+                <i class="bx bx-x modal__close portfolio__close"></i>
+                <img src="./images/portfolio.png" alt="" class="modal__img">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ========== COUNTER ============ -->
+    <section class="counter" id="counter">
+        <div class="counter__container grid">
+            <div class="counter__box">
+                <i class='bx bxs-briefcase counter__icon'></i>
+                <span class="count__number" data-num="220">0+</span>
+                <span class="counter__title">project complete</span>
+            </div>
+            <div class="counter__box">
+                <i class='bx bxs-heart counter__icon'></i>
+                <span class="count__number" data-num="230">0+</span>
+                <span class="counter__title">total like</span>
+            </div>
+            <div class="counter__box">
+                <i class='bx bxs-happy-heart-eyes counter__icon'></i>
+                <span class="count__number" data-num="150">0+</span>
+                <span class="counter__title">happy client</span>
+            </div>
+            <div class="counter__box">
+                <i class='bx bxs-award counter__icon'></i>
+                <span class="count__number" data-num="270">0+</span>
+                <span class="counter__title">award received</span>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- ====================== REVIEW ===================== -->
+    <section class="review section" id="review">
+      <h1 class="section__title">CLIENTS TO SAYS</h1>
+      <!-- <div class="slide__arrow">
+          <i class="bx bx-chevron-left slide__icon prev"></i>
+          <i class="bx bx-chevron-right slide__icon next"></i>
+      </div> -->
+
+      <div class="slide grid">
+        <div class="slide__arrow">
+            <i class="bx bx-chevron-left slide__icon prev"></i>
+            <i class="bx bx-chevron-right slide__icon next"></i>
+        </div>
+      </div>
+
+      <div class="review__container grid">
+          <div class="slider">
+              <div class="profile">
+                  <img src="./images/pic5.jpg" alt="" class="profile__img">
+
+                  <div class="job__name">
+                      <h2 class="profile__name">john doe</h2>
+                      <span class="job__title">jack metiyo shina, NYC, USA</span>
+                  </div>
+              </div>
+
+              <div class="slide__content">
+                  <i class='bx bxs-quote-left quote'></i>
+                  <p class="job__description">
+                    Gilroy is a great and super-professional service provider, which brought new technologes, new methodology, and a fresh perspective to our project
+                  </p>
+
+                  <div class="rating">
+                      <i class="bx bxs-star rating__icon"></i>
+                      <i class="bx bxs-star rating__icon"></i>
+                      <i class="bx bxs-star rating__icon"></i>
+                      <i class="bx bxs-star rating__icon"></i>
+                      <i class="bx bxs-star-half rating__icon"></i>
+                  </div>
+              </div>
+          </div>
+          <div class="slider slide__active">
+              <div class="profile">
+                  <img src="./images/pic5.jpg" alt="" class="profile__img">
+
+                  <div class="job__name">
+                      <h2 class="profile__name">john doe</h2>
+                      <span class="job__title">jack metiyo shina, NYC, USA</span>
+                  </div>
+              </div>
+
+              <div class="slide__content">
+                  <i class='bx bxs-quote-left quote'></i>
+                  <p class="job__description">
+                    Gilroy is a great and super-professional service provider, which brought new technologes, new methodology, and a fresh perspective to our project
+                  </p>
+
+                  <div class="rating">
+                    <i class="bx bxs-star rating__icon"></i>
+                    <i class="bx bxs-star rating__icon"></i>
+                    <i class="bx bxs-star rating__icon"></i>
+                    <i class="bx bxs-star rating__icon"></i>
+                    <i class="bx bxs-star-half rating__icon"></i>
+                </div>
+              </div>
+          </div>
+          <div class="slider ">
+              <div class="profile">
+                  <img src="./images/pic5.jpg" alt="" class="profile__img">
+
+                  <div class="job__name">
+                      <h2 class="profile__name">john doe</h2>
+                      <span class="job__title">jack metiyo shina, NYC, USA</span>
+                  </div>
+              </div>
+
+              <div class="slide__content">
+                <i class='bx bxs-quote-left quote'></i>
+
+                  <p class="job__description">
+                    Gilroy is a great and super-professional service provider, which brought new technologes, new methodology, and a fresh perspective to our project
+                  </p>
+
+                  <div class="rating">
+                    <i class="bx bxs-star rating__icon"></i>
+                    <i class="bx bxs-star rating__icon"></i>
+                    <i class="bx bxs-star rating__icon"></i>
+                    <i class="bx bxs-star rating__icon"></i>
+                    <i class="bx bxs-star-half rating__icon"></i>
+                </div>
+              </div>
+          </div>
+      </div>
+    </section>
+
+
+
+<!-- ================ PAYMENT OPTIONS ============ -->
+<section class="payment section" id="payment">
+    <h1 class="section__title">payment options</h1>
+
+
+    <div class="services__container payment__container grid">
+        <div class="services__box payment__box">
+            <img src="./images/service2.svg" alt="" class="services__img payment__img">
+
+            <div class="services__content payment__content">
+                <h1 class="services__title green payment__title">INFLUENCER</h1>
+
+                <p class="services__description paymetn__description">Best For Small Investors</p>
+            </div>
+
+            <div class="payment__price__list">
+                <h1 class="price">$105</h1>
+                <span class="payment__month">per month</span>
+
+                <a href="#" class="hero__contact btn payment__btn">read more
+                    <i class='bx bxs-chevron-right contact__icon payment__icon'></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="services__box active payment__box payment__active">
+            <img src="./images/service1.svg" alt="" class="services__img payment__img">
+
+            <div class="services__content payment__content">
+                <h1 class="services__title green payment__title">AGENCY</h1>
+
+                <p class="services__description payment__description">Best For Small Investors</p>
+            </div>
+            <div class="payment__price__list">
+                <h1 class="price">$199</h1>
+                <span class="payment__month">per month</span>
+
+                <a href="#" class="hero__contact btn payment__btn">read more
+                    <i class='bx bxs-chevron-right contact__icon payment__icon'></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="services__box payment__box">
+            <img src="./images/service3.svg" alt="" class="services__img payment__img">
+
+            <div class="services__content payment__content">
+                <h1 class="services__title green payment__title">ENTERPRISE</h1>
+
+                <p class="services__description payment__description">Best For Small Investors</p>
+                
+            </div>
+
+            <div class="payment__price__list">
+                <h1 class="price">$199</h1>
+                <span class="payment__month">per month</span>
+
+                <a href="#" class="hero__contact btn payment__btn">read more
+                    <i class='bx bxs-chevron-right contact__icon payment__icon'></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+
+<!-- ============= CONTACT ============= -->
+
+<section class="newsletter section" id="newsletter">
+    <h1 class="section__title">get in touch</h1>
+
+   <div class="my__form grid">
+       <form action="" class="form">
+
+        <div class="form__div">
+            <input type="email" class="form__input" placeholder=" ">
+            <label for="" class="form__label">enter email</label>
+        </div>
+
+        <div class="form__div">
+            <input type="password" class="form__input" placeholder=" ">
+            <label for="" class="form__label">password</label>
+        </div>
+
+        
+        <a href="#" class="hero__contact btn payment__btn">subscribe
+            <i class='bx bxs-conversation contact__icon payment__icon newsletter__icon'></i>
+        </a>
+       </form>
+   </div>
+
+</section>
+
+    </main>
+
+
+<!-- =========== FOOTER ============== -->
+
+<footer class="footer">
+    <div class="footer__container">
+        <a href="#" class="footer__link">about</a>
+        <a href="#" class="footer__link">career</a>
+        <a href="#" class="footer__link">blog</a>
+        <a href="#" class="footer__link">gallery</a>
+        <a href="#" class="footer__link">contact me</a>
+    </div>
+
+    <p class="copy__right">copyright &copy; 2021 by <span class="green footer__name">&#10174; &#8476;edwan</span> all rights reserved <span class="green">&#9825;</span></p>
+</footer>
+    
+
+    <script src="app.js"></script>
+
+</body>
+</html>
